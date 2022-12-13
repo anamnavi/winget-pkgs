@@ -1,0 +1,26 @@
+# Created with YamlCreate.ps1 v2.2.1 $debug=NVS1.CRLF.7-3-0.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.2.0.schema.json
+
+PackageIdentifier: Microsoft.PowerShell
+PackageVersion: 7.3.1
+InstallerType: msix
+InstallModes:
+- interactive
+- silent
+- silentWithProgress
+UpgradeBehavior: install
+Commands:
+- pwsh
+PackageFamilyName: Microsoft.PowerShell_8wekyb3d8bbwe
+ReleaseDate: 2022-12-13
+Installers:
+- Architecture: arm
+  InstallerUrl: https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win.msixbundle
+  InstallerSha256: F2C9247D6108B42EBCD489FC2EF52078EB450CF7282E4B91B9525A334F38B233
+  SignatureSha256: 1978C22A4C13D87B7B0B2B31773B45E51ED3B10D3BAF681EB6F521592F854F62
+- Architecture: arm64
+  InstallerUrl: https://github.com/PowerShell/PowerShell/releases/download/v7.3.1/PowerShell-7.3.1-win.msixbundle
+  InstallerSha256: F2C9247D6108B42EBCD489FC2EF52078EB450CF7282E4B91B9525A334F38B233
+  SignatureSha256: 1978C22A4C13D87B7B0B2B31773B45E51ED3B10D3BAF681EB6F521592F854F62
+ManifestType: installer
+ManifestVersion: 1.2.0
