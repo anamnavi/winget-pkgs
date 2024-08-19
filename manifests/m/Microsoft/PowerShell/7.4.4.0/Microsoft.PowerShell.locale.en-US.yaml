@@ -1,4 +1,4 @@
-# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-5-0-preview-3.Win32NT
+# Created with YamlCreate.ps1 v2.4.1 $debug=NVS1.CRLF.7-4-4.Win32NT
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
 
 PackageIdentifier: Microsoft.PowerShell
@@ -28,7 +28,7 @@ Tags:
 - pwsh
 - shell
 # ReleaseNotes:
-ReleaseNotesUrl: https://github.com/PowerShell/PowerShell/releases/tag/v7.4.4
+# ReleaseNotesUrl:
 # PurchaseUrl:
 # InstallationNotes:
 Documentations:
