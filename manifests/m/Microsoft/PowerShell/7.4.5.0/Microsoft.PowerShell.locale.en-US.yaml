@@ -28,7 +28,7 @@ Tags:
 - pwsh
 - shell
 # ReleaseNotes:
-ReleaseNotesUrl: https://github.com/PowerShell/PowerShell/releases/tag/v7.4.5
+# ReleaseNotesUrl:
 # PurchaseUrl:
 # InstallationNotes:
 Documentations:
